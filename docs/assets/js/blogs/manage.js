@@ -2,6 +2,9 @@
 
 function renderBlogs(){
 
+    if (App_blogs.length>0) {
+        document.getElementById('no_blogs').style.display = "none"
+    }
     App_blogs.forEach((blog,position) => {
         renderBlog(blog,position)
     });
