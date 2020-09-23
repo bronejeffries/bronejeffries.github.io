@@ -1,4 +1,4 @@
-const DIR = "file:///media/coseke-pc/ea20a456-fd67-43d9-a762-f50db6db9caa/projects/learning/Tunga%20Projects/bronejeffries.github.io/assignment%200ne/"
+const DIR = location.origin
 function checkSession(){
 
     logged_in = JSON.parse(localStorage.getItem('loggedIn'))
