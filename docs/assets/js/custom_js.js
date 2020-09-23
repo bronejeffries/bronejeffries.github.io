@@ -1,4 +1,4 @@
-const DIR = location.origin
+const DIR = location.origin+"/"
 function checkSession(){
 
     logged_in = JSON.parse(localStorage.getItem('loggedIn'))
