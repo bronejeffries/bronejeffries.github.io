@@ -135,6 +135,7 @@ function capture_image(e,id){
 
     reader.onload = function() {
         document.getElementById(id).src=reader.result;
+        document.getElementById(id).style.display = ""
     };
 }
 
